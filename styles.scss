@@ -1,0 +1,78 @@
+// FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// VARIABLES
+$color__primary: #F5EDDC;
+$color__secondary: #CFD2CF;
+$color__hover: #A2B5BB;
+$color__red: #EB1D36;
+
+
+// MOBILE FIRST
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    padding: 1.5em;
+    background-color: $color__primary;
+}
+
+.input__section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.input {
+    font-size: 1.3em;
+    padding: 1em 0.5em;
+    border-radius: 0.5em;
+    border: 2px $color__red solid;
+    outline: none;
+    color: $color__red;
+}
+
+.input__btn {
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color__primary;
+    background-color: $color__red;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.each__product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin: 0.6em 0em;
+    background-color: $color__red;
+    border-radius: 1em;
+}
+
+.each__product__p {
+    font-size: 1.5em;
+    color: $color__primary;
+}
+
+.each__product__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 0.2em;
+    border-radius: 0.5em;
+    border: none;
+    color: $color__red;
+}
